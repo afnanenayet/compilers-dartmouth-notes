@@ -4,14 +4,7 @@
 
 Introduction to compilers (broad overview).
 
-Compilers consist of:
-    - frontend
-        - lexical analysis
-        - syntactic analysis
-        - outputs IR
-    - backend
-        - takes IR
-        - outputs optimized machine code
+Compilers consist of: - frontend - lexical analysis - syntactic analysis - outputs IR - backend - takes IR - outputs optimized machine code
 
 ### Links
 
@@ -87,7 +80,7 @@ To install bison on MacOS, just install with Homebrew:
 brew install bison
 ```
 
-Now, put the path to bison in  your `$PATH`:
+Now, put the path to bison in your `$PATH`:
 
 ```sh
 echo 'export PATH="/usr/local/opt/bison/bin:$PATH"' >> ~/.bashrc

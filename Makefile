@@ -10,4 +10,4 @@ clean:
 	rm $(OUT)
 
 format:
-	prettier --write $(MD_SRC
+	prettier --write $(MD_SRC)
